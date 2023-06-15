@@ -1,1 +1,1 @@
-alert("İyi Günler !");
+// alert("İyi Günler !");
