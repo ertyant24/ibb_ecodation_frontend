@@ -2,3 +2,80 @@
     font-family: 'Mukta', sans-serif;
     /* background-color: #a03939;
 } */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.2;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header_id a{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover{
+    opacity: 0.95;
+    box-shadow: 2px 2px 4px 2px  black;
+    transition: 3s all;
+    cursor: pointer;
+}
+
+/* Line-clamp */
+
+.line-clamp5{
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.line-clamp8{
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.line-clamp10{
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+/* Header */
+
+header{
+    background-image: url("img/programming.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-shadow: 2px 2px 2px black;
+    z-index: -1;
+    height: 92vh;
+    padding-top: 4rem;
+}
