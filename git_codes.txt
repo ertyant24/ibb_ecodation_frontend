@@ -29,5 +29,7 @@ git stash pop
 git stash drop stash@{0}
 
 git branch -M main
-git brancn frontend  => ara branch kolları ekleme
+git branch frontend  => ara branch kolları ekleme
 git branch backend  => ara brancj kolları ekleme
+git branch -a 
+git branch -D frontend backend devops  => silme işlemi
